@@ -451,7 +451,7 @@ var content = [
     ["“ I need to be alone ... to sort things out... to decide just what it is I am!”", "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5e1fc080-3860-4c9f-827b-6a93bb6dc87d/db95rw-cf219eba-7c22-4fca-bba6-d7bdfde93638.jpg/v1/fill/w_745,h_1072,q_70,strp/human_torch_by_nichollica_db95rw-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI5NCIsInBhdGgiOiJcL2ZcLzVlMWZjMDgwLTM4NjAtNGM5Zi04MjdiLTZhOTNiYjZkYzg3ZFwvZGI5NXJ3LWNmMjE5ZWJhLTdjMjItNGZjYS1iYmE2LWQ3YmRmZGU5MzYzOC5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.ESMHDOzaiS5Qm5vGJZDPXqnZ8a26rgE7V68bq2cpOt8"],
     ["“Sometimes I feel without my powers, I'd be nothing”", "http://www.them6p.com/wp-content/uploads/2014/06/Hammond1.jpg"],
     ["“Man, Oh Man! That was a close one!”", "https://static1.comicvine.com/uploads/original/12/128032/5447024-6917399415-fanta.jpg"],
-    ["“I once accidently set this guy named John on fire ”", "http://comicbasics.com/wp-content/uploads/2017/09/Human-Torch.jpg"],
+    ["“I once accidentally set this guy named John on fire ”", "http://comicbasics.com/wp-content/uploads/2017/09/Human-Torch.jpg"],
 ];
 // set counter to 1
 var count = 1;
@@ -486,7 +486,7 @@ $('.getweather').on('click', (e) => {
         localStorage.setItem('coordinates', JSON.stringify(coordinates));
         localStorage.setItem('temperature', JSON.stringify(temperature));
         localStorage.setItem('conditions', JSON.stringify(conditions));
-        if (conditions === 'Rain'||conditions === 'Clouds') {
+        if (conditions === 'Rain' ) {
             window.location.href="storm.html";
         } else if (conditions === 'Snow') {
             window.location.href="iceman.html";

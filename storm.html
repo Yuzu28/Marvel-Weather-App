@@ -489,7 +489,7 @@ $('.getweather').on('click', (e) => {
         localStorage.setItem('coordinates', JSON.stringify(coordinates));
         localStorage.setItem('temperature', JSON.stringify(temperature));
         localStorage.setItem('conditions', JSON.stringify(conditions));
-        if (conditions === 'Rain'||conditions === 'Clouds') {
+        if (conditions === 'Rain' ||conditions === 'Clouds') {
             window.location.href="storm.html";
         } else if (conditions === 'Snow') {
             window.location.href="iceman.html";
